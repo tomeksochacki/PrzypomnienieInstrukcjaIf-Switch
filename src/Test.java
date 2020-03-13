@@ -35,5 +35,29 @@ public class Test {
                 System.out.println("Variable is diffrend");
 
         }
+
+        double z = 5.4;
+        if (z<10){
+            System.out.println("Variable is small to 10");
+
+        }
+        else {
+            System.out.println("Variable is greater");
+        }
+
+        int b = 1000;
+        switch (b){
+            case 1:
+                System.out.println("Variable b is greater to case 1");
+                break;
+            case 10:
+                System.out.println("Variable b is greater to case 10");
+                break;
+            case 1000:
+                System.out.println("Variable b is equals to case 1000");
+                break;
+            default:
+                System.out.println("Variable is diffrend");
+        }
     }
 }
